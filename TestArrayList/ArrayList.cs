@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using System.Collections;
 
-namespace TestArrayList
+namespace Test
 {
     public class Tests
     {
