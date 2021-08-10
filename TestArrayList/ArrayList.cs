@@ -55,7 +55,8 @@ namespace Test
             bool loContiene = array.Contains(texto);
 
             //Arrange
-            Assert.IsTrue(loContiene);
+            //Assert.IsTrue(loContiene);
+            Assert.Contains(texto, array);
         }
 
         [Test]
