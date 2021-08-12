@@ -21,6 +21,7 @@ namespace Test
         }
 
         [Test]
+        [Category("PruebaCategoria")]
         public void UltimoEntraPrimeroSale()
         {
             //Act

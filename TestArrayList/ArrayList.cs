@@ -27,6 +27,7 @@ namespace Test
         }
 
         [Test]
+        [Category("PruebaCategoria")]
         public void CuandoSeCreaCountEsCero()
         {
             //Arrange

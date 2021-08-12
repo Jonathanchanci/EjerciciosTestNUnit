@@ -26,6 +26,7 @@ namespace Test
         public Func<int, int, int> dividir = (int dividendo,int divisor) => dividendo / divisor;
 
         [Test]
+        [Category("PruebaCategoria")]
         public void DivideByZeroException()
         {
             //Arrange
