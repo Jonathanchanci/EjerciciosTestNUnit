@@ -20,6 +20,7 @@ namespace Test
     Que acceder al tercer elementos del array items lanza IndexOutOfRangeException
     Que invocar el método Clear (o cualquier otro método) sobre la referencia arr lanza NullReferenceException
      */
+    [TestFixture]
     public class ExcepcionesTest
     {
         public Func<int, int, int> dividir = (int dividendo,int divisor) => dividendo / divisor;

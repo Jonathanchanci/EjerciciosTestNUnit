@@ -9,6 +9,7 @@ namespace Test
     Escribe 3 test para verificar este comportamiento teniendo presente que el método para agregar 
     ítems es push y el método para retirar items es pop.
      */
+    [TestFixture]
     public class StackTest
     {
         Stack _stack = new Stack();

@@ -3,6 +3,7 @@ using System.Collections;
 
 namespace Test
 {
+    [TestFixture]
     public class Tests
     {
         /*
